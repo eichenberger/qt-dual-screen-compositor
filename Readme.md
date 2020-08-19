@@ -5,7 +5,7 @@ This example allows to start two applications one on the left and one on the rig
 ## Environment
 For the compositor the following environment variables need to be set:
 ```bash
-export QT_LOGGING_RULES=qt.qpa.*=true
+# export QT_LOGGING_RULES=qt.qpa.*=true # Optional for logging
 export QT_QPA_EGLFS_KMS_CONFIG=/etc/kms.conf
 export QT_QPA_EGLFS_INTEGRATION=kms
 export QT_QPA_PLATFORM=eglfs
