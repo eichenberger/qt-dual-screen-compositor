@@ -8,6 +8,7 @@ For the compositor the following environment variables need to be set:
 # export QT_LOGGING_RULES=qt.qpa.*=true # Optional for logging
 export QT_QPA_EGLFS_KMS_CONFIG=/etc/kms.conf
 export QT_QPA_EGLFS_INTEGRATION=kms
+# export QT_QPA_EGLFS_INTEGRATION=eglfs_kms # kms doesn't work on boot2qt but eglfs_kms
 export QT_QPA_PLATFORM=eglfs
 export QT_QPA_EGLFS_KMS_ATOMIC=1
 ```
