@@ -56,7 +56,6 @@ WaylandCompositor {
         var item = chromeComponent.createObject(output.surfaceArea, {
             "shellSurface": shellSurface
         });
-        item.setPrimary();
     }
 
     function handleShellSurfaceCreated(shellSurface) {  

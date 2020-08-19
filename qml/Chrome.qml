@@ -11,8 +11,4 @@ Item {
         autoCreatePopupItems: true
         onSurfaceDestroyed: chrome.destroy();
     }
-
-    function setPrimary() {
-        surfaceItem.setPrimary()
-    }
 }
