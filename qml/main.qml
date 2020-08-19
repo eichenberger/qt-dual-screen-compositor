@@ -57,7 +57,6 @@ WaylandCompositor {
             "shellSurface": shellSurface
         });
         item.setPrimary();
-        output.viewsBySurface[shellSurface.surface] = item;
     }
 
     function handleShellSurfaceCreated(shellSurface) {  

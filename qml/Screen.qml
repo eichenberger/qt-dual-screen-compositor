@@ -4,7 +4,6 @@ import QtQuick.Window 2.3
 
 WaylandOutput {
     id: screen
-    property variant viewsBySurface: ({})
     property alias surfaceArea: background
     property alias text: t.text
     property alias screen: win.screen
